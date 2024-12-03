@@ -46,22 +46,22 @@ function App() {
           </h2>
           <div className="flex flex-wrap">
             <DownloadButton
-              label="Download PDF"
+              label="PDF herunterladen"
               fileUrl="/portfolio.pdf"
               fileType="pdf"
             />
             <DownloadButton
-              label="Download DOCX"
+              label="DOCX herunterladen"
               fileUrl="/portfolio.docx"
               fileType="docx"
             />
             <DownloadButton
-              label="Download ODT"
+              label="ODT herunterladen"
               fileUrl="/portfolio.odt"
               fileType="odt"
             />
             <DownloadButton
-              label="Download RTF"
+              label="RTF herunterladen"
               fileUrl="/portfolio.rtf"
               fileType="rtf"
             />
