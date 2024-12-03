@@ -77,6 +77,7 @@ function App() {
               subtitle={section.subtitle}
               content={section.content}
               imageUrl={section.imageUrl}
+              downloadButton={section.downloadButton}
             />
           ))}
         </div>
