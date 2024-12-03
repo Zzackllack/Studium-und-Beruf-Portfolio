@@ -74,6 +74,7 @@ function App() {
             <PortfolioSection
               key={index}
               title={section.title}
+              subtitle={section.subtitle}
               content={section.content}
               imageUrl={section.imageUrl}
             />

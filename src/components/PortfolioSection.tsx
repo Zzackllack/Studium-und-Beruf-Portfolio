@@ -1,20 +1,33 @@
-import React from 'react';
-import { GlassCard } from './GlassCard';
+import React from "react";
+import { GlassCard } from "./GlassCard";
 
 interface PortfolioSectionProps {
   title: string;
+  subtitle?: string;
   content: string;
   imageUrl?: string;
 }
 
-export function PortfolioSection({ title, content, imageUrl }: PortfolioSectionProps) {
+export function PortfolioSection({
+  title,
+  subtitle,
+  content,
+  imageUrl,
+}: PortfolioSectionProps) {
   return (
     <GlassCard className="mb-8 overflow-hidden group">
       <section className="p-6">
-        <h2 className="text-2xl font-bold dark:text-white text-gray-800 mb-4 
-                       bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+        <h2
+          className="text-2xl font-bold dark:text-white text-gray-800 mb-2 
+                       bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
+        >
           {title}
         </h2>
+        {subtitle && (
+          <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-4">
+            {subtitle}
+          </h3>
+        )}
         <div className="prose max-w-none dark:prose-invert">
           <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
             {content}
