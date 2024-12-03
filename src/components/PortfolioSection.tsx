@@ -1,11 +1,17 @@
 import React from "react";
 import { GlassCard } from "./GlassCard";
+import { DownloadButton } from "./DownloadButton";
 
 interface PortfolioSectionProps {
   title: string;
   subtitle?: string;
   content: string;
   imageUrl?: string;
+  downloadButton?: {
+    label: string;
+    fileUrl: string;
+    fileType: string;
+  };
 }
 
 export function PortfolioSection({
@@ -13,6 +19,7 @@ export function PortfolioSection({
   subtitle,
   content,
   imageUrl,
+  downloadButton,
 }: PortfolioSectionProps) {
   return (
     <GlassCard className="mb-8 overflow-hidden group">
@@ -41,6 +48,13 @@ export function PortfolioSection({
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
+          )}
+          {downloadButton && (
+            <DownloadButton
+              label={downloadButton.label}
+              fileUrl={downloadButton.fileUrl}
+              fileType={downloadButton.fileType}
+            />
           )}
         </div>
       </section>
