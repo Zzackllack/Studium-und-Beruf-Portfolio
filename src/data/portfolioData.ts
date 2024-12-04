@@ -46,4 +46,9 @@ export const portfolioSections = [
     imageUrl:
       "https://images.unsplash.com/photo-1493612276216-ee3925520721?auto=format&fit=crop&q=80&w=800",
   },
+  {
+    title: "",
+    subtitle: "",
+    content: "",
+  },
 ];

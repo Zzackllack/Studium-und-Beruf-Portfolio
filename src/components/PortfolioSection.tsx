@@ -36,9 +36,10 @@ export function PortfolioSection({
           </h3>
         )}
         <div className="prose max-w-none dark:prose-invert">
-          <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-            {content}
-          </p>
+          <div
+            className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
           {imageUrl && (
             <div className="relative overflow-hidden rounded-lg">
               <img
