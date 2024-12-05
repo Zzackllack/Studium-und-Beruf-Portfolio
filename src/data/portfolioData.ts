@@ -49,8 +49,6 @@ export const portfolioSections = [
       <p>Neben klassischen Berufsfeldern der Informatik könnte ich mir auch vorstellen, Bildungsinformatik oder Lehramt mit Schwerpunkt Informatik zu studieren. Der Gedanke, anderen Menschen mein Wissen zu vermitteln und sie für Technik und Informatik zu begeistern, spricht mich sehr an. Diese Verbindung aus technischer Expertise und dem sozialen Aspekt, Menschen zu fördern, würde meinem Wunsch nach mehr Interaktion im Beruf entgegenkommen. </p>
       <p>Auch der juristische Bereich ist für mich eine interessante Option, insbesondere durch die familiäre Prägung – beide Elternteile haben Jura studiert, und mein Vater ist Richter. Ich beschäftige mich gerne mit Recherchen und lese Gesetzestexte oder arbeite mich in komplexe juristische Fragestellungen ein. Diese Arbeit erfordert sowohl analytisches Denken als auch eine strukturierte Vorgehensweise, was meinen Fähigkeiten entspricht. Berufe wie Anwalt oder Unternehmensjurist könnten mir die Möglichkeit geben, mein Interesse an Logik und Recherche in einem beruflichen Kontext zu vertiefen. Auch der direkte Austausch mit Mandanten oder Kollegen wäre hier ein zusätzlicher Anreiz. </p>
       <p>Obwohl ich offen für den juristischen Bereich bin, sehe ich mich aktuell stärker in der Informatik. Die Möglichkeit, sowohl kreativ als auch lösungsorientiert zu arbeiten, kombiniert mit der Option, Wissen im Bildungsbereich weiterzugeben, macht Informatik für mich zum Fachbereich, der am besten zu meinen Interessen und Stärken passt.</p>`,
-    imageUrl:
-      "https://images.unsplash.com/photo-1493612276216-ee3925520721?auto=format&fit=crop&q=80&w=800",
   },
   {
     title: "Studienfinanzierung",
