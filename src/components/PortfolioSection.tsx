@@ -43,11 +43,11 @@ export function PortfolioSection({
             dangerouslySetInnerHTML={{ __html: content }}
           />
           {imageUrl && (
-            <div className="relative overflow-hidden rounded-lg">
+            <div className="relative overflow-hidden rounded-lg mb-4">
               <img
                 src={imageUrl}
                 alt={title}
-                className="w-full h-auto transform transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
