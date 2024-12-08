@@ -8,32 +8,32 @@ export const portfolioSections = [
     downloadButtons: [
       {
         label: "PDF herunterladen",
-        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.pdf",
+        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.pdf",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.pdf",
       },
       {
         label: "DOCX herunterladen",
-        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.docx",
+        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.docx",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.docx",
       },
       {
         label: "ODT herunterladen",
-        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.odt",
+        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.odt",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.odt",
       },
       {
         label: "RTF herunterladen",
-        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.rtf",
+        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.rtf",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.rtf",
       },
       {
         label: "XPS herunterladen",
-        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.xps",
+        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.xps",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.xps",
       },
       {
         label: "TXT herunterladen",
-        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.txt",
+        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.txt",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.txt",
       },
     ],
@@ -75,7 +75,7 @@ export const portfolioSections = [
       {
         label: "Ergebnisse herunterladen",
         fileName: "results.pdf",
-        fileUrl: "public/results.pdf",
+        fileUrl: "/results.pdf",
       },
     ],
   },
