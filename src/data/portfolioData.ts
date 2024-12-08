@@ -5,11 +5,28 @@ export const portfolioSections = [
   {
     title: "Portfolio herunterladen",
     subtitle: "Hier kann das Portfolio in Text-Form heruntergeladen werden",
-    downloadButton: {
-      label: "PDF herunterladen",
-      fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.pdf",
-      fileName: "Studium und Beruf Portfolio^J Cédric Klinge.pdf",
-    },
+    downloadButtons: [
+      {
+        label: "PDF herunterladen",
+        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.pdf",
+        fileName: "Studium und Beruf Portfolio^J Cédric Klinge.pdf",
+      },
+      {
+        label: "DOCX herunterladen",
+        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.docx",
+        fileName: "Studium und Beruf Portfolio^J Cédric Klinge.docx",
+      },
+      {
+        label: "ODT herunterladen",
+        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.odt",
+        fileName: "Studium und Beruf Portfolio^J Cédric Klinge.odt",
+      },
+      {
+        label: "RTF herunterladen",
+        fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.rtf",
+        fileName: "Studium und Beruf Portfolio^J Cédric Klinge.rtf",
+      },
+    ],
   },
   {
     title: "Wahl des Kurses Studium und Beruf ",

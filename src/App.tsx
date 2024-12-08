@@ -47,22 +47,22 @@ function App() {
           <div className="flex flex-wrap">
             <DownloadButton
               label="PDF herunterladen"
-              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.pdf"
+              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.pdf"
               fileName="Studium und Beruf Portfolio^J Cédric Klinge.pdf"
             />
             <DownloadButton
               label="DOCX herunterladen"
-              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.docx"
+              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.docx"
               fileName="Studium und Beruf Portfolio^J Cédric Klinge.docx"
             />
             <DownloadButton
               label="ODT herunterladen"
-              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.odt"
+              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.odt"
               fileName="Studium und Beruf Portfolio^J Cédric Klinge.odt"
             />
             <DownloadButton
               label="RTF herunterladen"
-              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.rtf"
+              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.rtf"
               fileName="Studium und Beruf Portfolio^J Cédric Klinge.rtf"
             />
           </div>
@@ -77,7 +77,7 @@ function App() {
               subtitle={section.subtitle}
               content={section.content}
               imageUrl={section.imageUrl}
-              downloadButton={section.downloadButton}
+              downloadButtons={section.downloadButtons}
             />
           ))}
         </div>
