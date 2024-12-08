@@ -84,4 +84,15 @@ export const portfolioSections = [
     <p> Ein weiterer wichtiger Faktor war die Möglichkeit, Informatik mit Bildung zu verbinden, wie ich es bei meinem Gespräch mit der Uni Rostock über Lehramt mit Schwerpunkt Informatik erfahren habe. Dies zeigt mir, dass ich auch soziale und vermittelnde Aspekte in meine Karriere einbringen könnte, ohne den technischen Fokus zu verlieren. </p>
     <p> Zusammenfassend hat sich mein ursprünglicher Plan, Informatik zu studieren, weiter gefestigt. Das Jurastudium bleibt zwar eine interessante Option, ist jedoch unwahrscheinlicher geworden, da meine Neigungen und beruflichen Ziele inzwischen klarer auf den Bereich Informatik und Technik ausgerichtet sind. <p>`,
   },
+  {
+    title: "Wahl des Kurses Studium und Beruf",
+    subtitle:
+      "„Reflektieren Sie, inwieweit der Kurs Studium und Beruf Sie bei Ihrer Studien- und Berufswahl unterstützen konnte. Benennen Sie darüber hinaus, was Sie an dem Kurs positiv/ verbesserungswürdig empfinden.“",
+    content: `
+    <p> Der Kurs Studium und Beruf hat mir in vielerlei Hinsicht geholfen, meine Studien- und Berufswahl klarer zu definieren und meine Optionen besser einzuschätzen. Besonders hilfreich fand ich die Exkursion zur Uni Potsdam. Diese bot nicht nur interessante Einblicke in die universitäre Atmosphäre und Studienmöglichkeiten, sondern war insgesamt eine sehr positive und inspirierende Erfahrung, die mir den Uni-Alltag greifbarer gemacht hat. </p>
+    <p> Auch die Nutzung von Berufs- und Studienwahltests haben mir wertvolle Erkenntnisse über meine Persönlichkeit und Interessen gegeben. Die Übereinstimmung mit technischen und analytischen Berufsfeldern hat meine Neigung zur Informatik und Technik bestätigt und mir gezeigt, dass ich auf dem richtigen Weg bin. </p>
+    <p> Auch die Art und Weise, wie uns im Kurs das zusätzliche Wissen vermittelt wurde, hat mir sehr gut gefallen. Besonders das Konzept, dass jeder Teilnehmerin oder Gruppen ein spezifisches Thema bekamen, das sie eigenständig erarbeiten und anschließend im Plenum vorstellen mussten, war für mich eine effektive Methode. Diese „gezwungene Mitarbeit“ war zwar herausfordernd, sorgte aber dafür, dass sich alle aktiv mit den Themen auseinandergesetzt haben. Das förderte nicht nur die Eigenverantwortung, sondern auch die Präsentations- und Teamfähigkeiten.</p>
+    <p> Ein weiterer positiver Aspekt war die Vielfalt der Themen und die Möglichkeit, individuelle Fragen zu stellen.</p>
+    <p> Verbesserungswürdig fände ich jedoch eine intensivere Beschäftigung mit Soft Skills wie Zeitmanagement oder Networking im Studium. Ansonsten fand ich den Kurs sehr lehrreich und habe nichts Weiteres zu kritisieren. </p>`,
+  },
 ];
