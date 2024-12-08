@@ -39,35 +39,6 @@ function App() {
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-8">
-        {/* Download Section */}
-        <GlassCard className="p-6 mb-8">
-          <h2 className="text-xl font-semibold dark:text-white text-gray-800 mb-4">
-            Portfolio herunterladen
-          </h2>
-          <div className="flex flex-wrap">
-            <DownloadButton
-              label="PDF herunterladen"
-              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.pdf"
-              fileName="Studium und Beruf Portfolio^J Cédric Klinge.pdf"
-            />
-            <DownloadButton
-              label="DOCX herunterladen"
-              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.docx"
-              fileName="Studium und Beruf Portfolio^J Cédric Klinge.docx"
-            />
-            <DownloadButton
-              label="ODT herunterladen"
-              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.odt"
-              fileName="Studium und Beruf Portfolio^J Cédric Klinge.odt"
-            />
-            <DownloadButton
-              label="RTF herunterladen"
-              fileUrl="/public/Studium und Beruf Portfolio^J Cédric Klinge.rtf"
-              fileName="Studium und Beruf Portfolio^J Cédric Klinge.rtf"
-            />
-          </div>
-        </GlassCard>
-
         {/* Portfolio Sections */}
         <div className="space-y-6">
           {portfolioSections.map((section, index) => (
