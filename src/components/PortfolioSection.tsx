@@ -28,7 +28,7 @@ export function PortfolioSection({
       <section className="p-6">
         <h2
           className="text-2xl font-bold dark:text-white text-gray-800 mb-2 
-                       bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
+                       bg-gradient-to-r from-green-400 to-yellow-400 bg-clip-text text-transparent"
         >
           {title}
         </h2>
