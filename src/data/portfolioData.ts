@@ -74,4 +74,14 @@ export const portfolioSections = [
     <p> Zum Abschluss habe ich mich am Stand der Uni Rostock mit einem Professor über das Studium Informatik auf Lehramt unterhalten. Die Informationen waren sehr interessant, und die Verbindung von Technik und Bildung hat mich angesprochen. Diese Option könnte eine gute Möglichkeit sein, meine Begeisterung für Informatik mit meinem Wunsch nach sozialer Interaktion und Wissensvermittlung zu kombinieren. </p> 
     <p> Zusammenfassend hat die Messe mir viele Einblicke gegeben und meine Perspektiven erweitert. Besonders die Gespräche mit dem BSI und der BDBOS haben meine Aufmerksamkeit auf den öffentlichen Dienst und die Möglichkeit einer Karriere in sicherheitsrelevanten Bereichen gelenkt. Gleichzeitig hat mich der Austausch mit der Uni Rostock inspiriert, Lehramt mit Schwerpunkt Informatik als mögliche Option in Betracht zu ziehen. </p>`,
   },
+  {
+    title: "Ich und meine Studien- und Berufswahl",
+    subtitle:
+      "„Blicken Sie zurück und benennen Sie, welche Ausbildung/ Studium Sie – stand jetzt – wählen würden. Begründen Sie, warum Sie Ihre Vorstellung verändert haben oder warum Ihre erste Wahl bestärkt wurde.“",
+    content: `
+    <p> Wenn ich zurückblicke, hat sich meine Studien- und Berufswahl im Laufe der Zeit klarer herauskristallisiert. Stand jetzt würde ich ein Studium im Bereich Informatik wählen, da ich mich in diesem Bereich am stärksten wiederfinde. Die Verbindung aus analytischem Denken, kreativen Lösungsansätzen und der Möglichkeit, zukunftsorientierte Technologien zu gestalten, entspricht genau meinen Interessen und Fähigkeiten. </p>
+    <p> Während ich ursprünglich auch ein Jurastudium als potenzielle Option in Betracht gezogen habe, ist diese Vorstellung mit der Zeit in den Hintergrund getreten. Zwar finde ich die Arbeit mit Gesetzestexten, Recherchen und logischen Argumentationen weiterhin interessant, doch erscheint mir der Bezug zu meinen Interessen im Bereich Technik und Informatik weniger stark ausgeprägt. Zudem hat mich die Messe, insbesondere die Gespräche mit dem Bundesamt für Sicherheit in der Informationstechnik (BSI) und der Bundesanstalt für den Digitalfunk (BDBOS), darin bestärkt, dass meine Stärken und Interessen eher in sicherheitsrelevanten technischen Berufsfeldern liegen. </p>
+    <p> Ein weiterer wichtiger Faktor war die Möglichkeit, Informatik mit Bildung zu verbinden, wie ich es bei meinem Gespräch mit der Uni Rostock über Lehramt mit Schwerpunkt Informatik erfahren habe. Dies zeigt mir, dass ich auch soziale und vermittelnde Aspekte in meine Karriere einbringen könnte, ohne den technischen Fokus zu verlieren. </p>
+    <p> Zusammenfassend hat sich mein ursprünglicher Plan, Informatik zu studieren, weiter gefestigt. Das Jurastudium bleibt zwar eine interessante Option, ist jedoch unwahrscheinlicher geworden, da meine Neigungen und beruflichen Ziele inzwischen klarer auf den Bereich Informatik und Technik ausgerichtet sind. <p>`,
+  },
 ];
