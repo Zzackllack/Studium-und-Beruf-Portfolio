@@ -28,7 +28,7 @@ export function PortfolioSection({
       <section className="p-6">
         <h2
           className="text-2xl font-bold dark:text-white text-gray-800 mb-2 
-                       bg-gradient-to-r from-green-400 to-yellow-400 bg-clip-text text-transparent"
+                       bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent"
         >
           {title}
         </h2>
@@ -39,7 +39,7 @@ export function PortfolioSection({
         )}
         <div className="prose max-w-none dark:prose-invert">
           <div
-            className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed"
+            className="text-gray-800 dark:text-gray-300 mb-4 leading-relaxed"
             dangerouslySetInnerHTML={{ __html: content }}
           />
           {imageUrl && (

@@ -17,10 +17,10 @@ export function DownloadButton({
       href={fileUrl}
       download={fileName}
       className="inline-flex items-center px-6 py-3 rounded-full
-                bg-white/30 backdrop-blur-md
+                bg-white/5 backdrop-blur-md
                 border border-white/20
                 shadow-lg
-                hover:bg-white/40
+                hover:bg-white/30
                 text-gray-800 dark:text-white font-medium
                 transform hover:scale-105
                 transition-all duration-300 ease-in-out

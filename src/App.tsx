@@ -28,7 +28,13 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <GraduationCap className="w-8 h-8 text-blue-600 dark:text-blue-400" />
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <h1
+                className={`text-3xl font-bold bg-gradient-to-r ${
+                  isDark
+                    ? "from-blue-500 to-gray-500"
+                    : "from-blue-500 to-black"
+                } bg-clip-text text-transparent`}
+              >
                 Studium und Beruf Portfolio
               </h1>
             </div>
