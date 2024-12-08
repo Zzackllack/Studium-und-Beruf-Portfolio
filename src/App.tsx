@@ -47,23 +47,23 @@ function App() {
           <div className="flex flex-wrap">
             <DownloadButton
               label="PDF herunterladen"
-              fileUrl="/portfolio.pdf"
-              fileType="pdf"
+              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.pdf"
+              fileName="Studium und Beruf Portfolio^J Cédric Klinge.pdf"
             />
             <DownloadButton
               label="DOCX herunterladen"
-              fileUrl="/portfolio.docx"
-              fileType="docx"
+              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.docx"
+              fileName="Studium und Beruf Portfolio^J Cédric Klinge.docx"
             />
             <DownloadButton
               label="ODT herunterladen"
-              fileUrl="/portfolio.odt"
-              fileType="odt"
+              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.odt"
+              fileName="Studium und Beruf Portfolio^J Cédric Klinge.odt"
             />
             <DownloadButton
               label="RTF herunterladen"
-              fileUrl="/portfolio.rtf"
-              fileType="rtf"
+              fileUrl="public/Studium und Beruf Portfolio^J Cédric Klinge.rtf"
+              fileName="Studium und Beruf Portfolio^J Cédric Klinge.rtf"
             />
           </div>
         </GlassCard>

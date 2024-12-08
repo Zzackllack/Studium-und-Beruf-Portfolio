@@ -1,17 +1,21 @@
-import React from 'react';
-import { Download } from 'lucide-react';
+import React from "react";
+import { Download } from "lucide-react";
 
 interface DownloadButtonProps {
   label: string;
   fileUrl: string;
-  fileType: string;
+  fileName: string;
 }
 
-export function DownloadButton({ label, fileUrl, fileType }: DownloadButtonProps) {
+export function DownloadButton({
+  label,
+  fileUrl,
+  fileName,
+}: DownloadButtonProps) {
   return (
     <a
       href={fileUrl}
-      download={`portfolio.${fileType}`}
+      download={fileName}
       className="inline-flex items-center px-6 py-3 rounded-full
                 bg-gradient-to-r from-blue-600 to-purple-600
                 hover:from-blue-700 hover:to-purple-700

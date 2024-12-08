@@ -3,6 +3,15 @@ import { DownloadButton } from "../components/DownloadButton";
 
 export const portfolioSections = [
   {
+    title: "Portfolio herunterladen",
+    subtitle: "Hier kann das Portfolio in Text-Form heruntergeladen werden",
+    downloadButton: {
+      label: "PDF herunterladen",
+      fileUrl: "public/Studium und Beruf Portfolio^J Cédric Klinge.pdf",
+      fileName: "Studium und Beruf Portfolio^J Cédric Klinge.pdf",
+    },
+  },
+  {
     title: "Wahl des Kurses Studium und Beruf ",
     subtitle:
       "„Erklären und begründen Sie, weshalb Sie den Ergänzungskurs Studium und Beruf gewählt haben und was Ihre Vorstellungen und Wünsche an den Kurs sind.“",
@@ -36,7 +45,7 @@ export const portfolioSections = [
     downloadButton: {
       label: "Ergebnisse herunterladen",
       fileUrl: "public/results.pdf",
-      fileType: "pdf",
+      fileName: "results.pdf",
     },
   },
   {

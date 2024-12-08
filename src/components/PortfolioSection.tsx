@@ -10,7 +10,7 @@ interface PortfolioSectionProps {
   downloadButton?: {
     label: string;
     fileUrl: string;
-    fileType: string;
+    fileName: string;
   };
 }
 
@@ -54,7 +54,7 @@ export function PortfolioSection({
             <DownloadButton
               label={downloadButton.label}
               fileUrl={downloadButton.fileUrl}
-              fileType={downloadButton.fileType}
+              fileName={downloadButton.fileName}
             />
           )}
         </div>
