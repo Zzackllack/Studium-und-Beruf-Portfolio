@@ -8,32 +8,38 @@ export const portfolioSections = [
     downloadButtons: [
       {
         label: "PDF herunterladen",
-        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.pdf",
+        fileUrl:
+          "https://drive.google.com/file/d/1WOZ1bNf2T_qT3JMq1ifxb7JpjSSYKeVe/view?usp=drive_link",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.pdf",
       },
       {
         label: "DOCX herunterladen",
-        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.docx",
+        fileUrl:
+          "https://docs.google.com/document/d/1Gq921VhyuTa9MRsaY7gveZfjpyJL5sJp/edit?usp=drive_link&ouid=105957556104012400044&rtpof=true&sd=true",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.docx",
       },
       {
         label: "ODT herunterladen",
-        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.odt",
+        fileUrl:
+          "https://drive.google.com/file/d/1gYaMWRKCtFYRE4m3MEdFdF7lrlB_Emi4/view?usp=drive_link",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.odt",
       },
       {
         label: "RTF herunterladen",
-        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.rtf",
+        fileUrl:
+          "https://docs.google.com/document/d/1mKPi1E01YiYJz45YzlIJGbX1VcQmamca/edit?usp=drive_link&ouid=105957556104012400044&rtpof=true&sd=true",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.rtf",
       },
       {
         label: "XPS herunterladen",
-        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.xps",
+        fileUrl:
+          "https://drive.google.com/file/d/1_i-kg-UYhxfiFCJkCXlp8RQd5h1mEXD/view?usp=drive_link",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.xps",
       },
       {
         label: "TXT herunterladen",
-        fileUrl: "/Studium und Beruf Portfolio^J Cédric Klinge.txt",
+        fileUrl:
+          "https://drive.google.com/file/d/146FNjjPZeeBdnS-omV6lrsau1lQFoWMX/view?usp=drive_link",
         fileName: "Studium und Beruf Portfolio Cédric Klinge.txt",
       },
     ],
@@ -74,8 +80,9 @@ export const portfolioSections = [
     downloadButtons: [
       {
         label: "Ergebnisse herunterladen",
+        fileUrl:
+          "https://drive.google.com/file/d/1fZ59qEhpN6AmIj-uuRnu4XqTQqEuJvTo/view?usp=drive_link",
         fileName: "results.pdf",
-        fileUrl: "/results.pdf",
       },
     ],
   },
