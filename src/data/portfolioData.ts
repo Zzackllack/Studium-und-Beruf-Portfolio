@@ -83,15 +83,18 @@ export const portfolioSections = [
     title: "Studien- und Ausbildungssystem",
     subtitle:
       "„Skizzieren Sie kurz das Ausbildungs- und Studiensystem und begründen Sie/ wägen Sie ab, ob Sie ein Studium, eine Ausbildung oder eine Alternative wählen würden“",
-    content: `<p>Das deutsche Studien- und Ausbildungssystem bietet verschiedene Möglichkeiten für die berufliche Entwicklung. Nach der Schule kann man entweder eine Ausbildung absolvieren, ein Studium beginnen oder Alternativen wie ein duales Studium oder ein freiwilliges soziales Jahr wählen. </p>
+    content: `
+      <p>Das deutsche Studien- und Ausbildungssystem bietet verschiedene Möglichkeiten für die berufliche Entwicklung. Nach der Schule kann man entweder eine Ausbildung absolvieren, ein Studium beginnen oder Alternativen wie ein duales Studium oder ein freiwilliges soziales Jahr wählen. </p>
       <p>Ein Studium folgt meist dem Bachelor-Master-System, das international anerkannt ist. Der Bachelor dauert in der Regel drei bis vier Jahre und vermittelt grundlegende sowie fachspezifische Kenntnisse. Anschließend kann ein Masterstudium folgen, das weiterführendes Wissen vermittelt und etwa zwei Jahre dauert. Besonders attraktiv ist, dass ein Studium neben Fachwissen auch überfachliche Kompetenzen wie wissenschaftliches Arbeiten oder kritisches Denken fördert. </p>
       <p>Eine Ausbildung hingegen kombiniert praktische Arbeit im Betrieb mit theoretischen Inhalten in der Berufsschule. Sie dauert meist zwei bis drei Jahre und bereitet gezielt auf den Arbeitsmarkt vor. Auszubildende verdienen bereits während der Ausbildung ein Gehalt, was diesen Weg finanziell attraktiv macht. </p>
       <p>Für mich persönlich überwiegen die Vorteile eines Studiums. Zum einen entspricht ein Studium meinen langfristigen beruflichen Zielen, da ich eine Tätigkeit anstrebe, die fundierte fachliche Kenntnisse in Informatik oder Technik erfordert. Zum anderen schätze ich die Flexibilität und die Entwicklungsmöglichkeiten, die ein Studium bietet. Ich möchte mich gerne auf wissenschaftlichem Niveau mit Themen wie Softwareentwicklung oder KI auseinandersetzen, was in einer klassischen Ausbildung nur begrenzt möglich wäre. </p>
       <p>Zwar bietet eine Ausbildung eine direktere Verbindung zur Praxis, doch empfinde ich die theoretische Tiefe eines Studiums als besser passend zu meinen Interessen und Fähigkeiten. Eine Alternative wie ein duales Studium könnte ebenfalls attraktiv sein, da es Theorie und Praxis kombiniert, allerdings bin ich aktuell eher an einem klassischen Hochschulstudium interessiert, um mich voll auf die theoretischen Aspekte meines Fachgebiets konzentrieren zu können. </p>`,
+    imageUrl: "https://kappa.lol/0jAhh",
   },
   {
     title: "Fachbereich/ Berufsfelder",
-    subtile: `„Reflektieren Sie, welcher Fachbereich/ Berufsfeld aufgrund der spezifischen Anforderungen am besten zu Ihnen passt.“`,
+    subtitle:
+      "„Reflektieren Sie, welcher Fachbereich/ Berufsfeld aufgrund der spezifischen Anforderungen am besten zu Ihnen passt.“",
     content: `	
       <p>Basierend auf meinen Interessen und Fähigkeiten passen die Fachbereiche Informatik und Technik am besten zu mir. Die spezifischen Anforderungen in diesen Bereichen – analytisches Denken, Problemlösungsfähigkeit und ein Verständnis für komplexe Systeme – entsprechen meinen Stärken. Ich habe Freude daran, technische Herausforderungen zu lösen und innovative Ansätze zu entwickeln, was durch meine Erfahrungen im Programmieren und Arbeiten an technischen Projekten deutlich wird.</p>
       <p>Der Fachbereich Informatik bietet mir zudem vielfältige berufliche Möglichkeiten, etwa in der Softwareentwicklung, IT-Beratung oder in zukunftsorientierten Themen wie Künstlicher Intelligenz und Cybersecurity. Mein Leistungskurs Informatik hat mein Interesse an diesen Themen zusätzlich gestärkt und mir wichtige Grundlagen vermittelt.</p>
