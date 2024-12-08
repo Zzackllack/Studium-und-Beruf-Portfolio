@@ -59,11 +59,13 @@ export const portfolioSections = [
       <p> Der Big-Five-Persönlichkeitstest zeigte, dass ich eine mittlere Ausprägung in Extraversion und Gewissenhaftigkeit habe, was meine Fähigkeit zur Teamarbeit und meine Vorliebe für flexibles Arbeiten unterstreicht. </p>
       <p> Mein hoher Wert bei Aktivität zeigt, dass ich gerne in einem dynamischen Umfeld arbeite. Gleichzeitig wird mein mittlerer Wert bei Stressresistenz als Hinweis darauf interpretiert, dass ich manchmal an meinen Umgang mit Drucksituationen arbeiten könnte, was besonders in anspruchsvollen Berufen wichtig ist​. </p>
       <p> Ich habe zusätzlich die Tests auf den Seiten „Studis Online“ und „Arbeitsblätter von Stangl-Taller“ durchgeführt, jedoch empfand ich diese nicht als seriös, da die Ergebnisse weder eine klare Passung aufzeigten noch mit meinen Interessen oder Fähigkeiten übereinstimmten. Zusammenfassend identifiziere ich mich stark mit den Ergebnissen der Tests, da sie meine technischen und analytischen Interessen betonen und gleichzeitig Bereiche aufzeigen, in denen ich mich weiterentwickeln könnte. Meine Schlussfolgerung aus den Tests ist, dass ein Studium der Informatik oder ein technischer Studiengang meinen Interessen und Fähigkeiten sehr gut entsprechen würde. Gleichzeitig bleibe ich offen für Alternativen wie ein Jurastudium, da es sowohl meine analytischen Fähigkeiten als auch mein Interesse an sozialem Austausch fördern könnte. </p> `,
-    downloadButton: {
-      label: "Ergebnisse herunterladen",
-      fileUrl: "public/results.pdf",
-      fileName: "results.pdf",
-    },
+    downloadButtons: [
+      {
+        label: "Ergebnisse herunterladen",
+        fileName: "results.pdf",
+        fileUrl: "public/results.pdf",
+      },
+    ],
   },
   {
     title: "Studien- und Ausbildungssystem",

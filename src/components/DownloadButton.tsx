@@ -17,8 +17,8 @@ export function DownloadButton({
       href={fileUrl}
       download={fileName}
       className="inline-flex items-center px-6 py-3 rounded-full
-                bg-gradient-to-r from-blue-600 to-purple-600
-                hover:from-blue-700 hover:to-purple-700
+                bg-gradient-to-r from-blue-400 to-red-400
+                hover:from-green-500 hover:to-yellow-500
                 text-white font-medium
                 transform hover:scale-105 hover:shadow-lg
                 transition-all duration-300 ease-in-out
